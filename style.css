@@ -9,11 +9,13 @@ html{
     scroll-behavior:smooth;
 }
 
+
 body{
-    background:linear-gradient(135deg,#2b061e,#4a1028,#7a1f3d,#b8325c);
-    color:white;
+    background:linear-gradient(135deg,#ffffff,#f8f5f2,#f4ede7,#fffaf7);
+    color:#3d2c2e;
     overflow-x:hidden;
 }
+
 
 body::before{
     content:"";
@@ -50,8 +52,8 @@ header{
     top:0;
     z-index:1000;
     backdrop-filter:blur(15px);
-    background:rgba(43,6,30,0.55);
-    border-bottom:1px solid rgba(255,255,255,0.15);
+    background:rgba(255,255,255,0.75);
+    border-bottom:1px solid rgba(0,0,0,0.08);
 }
 
 nav{
