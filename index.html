@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dream Career Roadmap</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <h2>Career<span>Map</span></h2>
+    <a href="#roadmap">Explore</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-content">
+    <h1>Discover Your <span>Dream Career Roadmap</span></h1>
+    <p>
+      Select your career goal and get skills, roadmap, project ideas,
+      interview tips, and growth direction in one place.
+    </p>
+    <a href="#roadmap" class="btn">Start Journey</a>
+  </div>
+</section>
+
+<section class="roadmap" id="roadmap">
+  <h2>Choose Your Career Goal</h2>
+
+  <div class="career-box">
+    <select id="career">
+      <option value="">Select Career</option>
+      <option value="java">Java Developer</option>
+      <option value="software">Software Engineer</option>
+      <option value="web">Web Developer</option>
+      <option value="data">Data Analyst</option>
+    </select>
+
+    <button onclick="showRoadmap()">Generate Roadmap</button>
+  </div>
+
+  <div class="result" id="result">
+    <h3>Your roadmap will appear here...</h3>
+  </div>
+</section>
+
+<footer>
+  <p>Designed & Developed by Raitri Mallick</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
